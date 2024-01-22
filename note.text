@@ -1,0 +1,15 @@
+commande :
+python manage.py sqlmigrate app_name  0001
+python manage.py makemigrations
+python manage.py migrate
+python manage.py showmigrations
+python manage.py migrate myapp 0001 --plan
+python manage.py migrate myapp 0001
+python manage.py  shell
+Customer.objects.all()
+m = Customer.objects.create(name="Barry", reservation_day="Saturday", seats=2)
+m.save()
+python3 manage.py createsuperuser
+lanzhou:12345678
+diallo:diallopassword
+
